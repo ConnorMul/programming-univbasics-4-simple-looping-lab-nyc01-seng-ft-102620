@@ -17,8 +17,11 @@ end
 
 def return_string_array(array)
   new_array = []
-  array.each do |ele|
-    ele.to_s 
-    new_array << ele
+  
+  i = 0 
+  while i < array.length 
+    new_array << array[i].to_s
+    i += 1
   end
+  new_array
 end
