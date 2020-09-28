@@ -16,6 +16,6 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.collect {|ele| ele.to_s}
-  array
+  new_array = []
+  array.each {|ele| new_array << ele.to_s}
 end
