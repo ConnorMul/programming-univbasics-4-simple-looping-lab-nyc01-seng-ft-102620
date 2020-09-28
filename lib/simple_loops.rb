@@ -17,5 +17,7 @@ end
 
 def return_string_array(array)
   new_array = []
-  array.each {|ele| new_array << ele.to_s }
+  array.each do |ele|
+    new_array << ele.to_s 
+  end
 end
